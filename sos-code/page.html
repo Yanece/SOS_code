@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenue sur SOS code</title>
+    <link rel="stylesheet" href="html.css" />
+  </head>
+  <body>
+    <h1>Bienvenue sur SOS code</h1>
+
+    <!-- Zone de texte -->
+    <textarea id="textInput" rows="4" cols="300"></textarea><br /><br />
+
+    <!-- Bouton Envoyer -->
+    <button onclick="envoyer()">Envoyer</button><br /><br />
+
+    <!-- Zone pour afficher les réponses -->
+    <div id="reponses">
+      <!-- Zone de texte -->
+      <textarea id="textInput" rows="4" cols="300"></textarea><br /><br />
+
+      <label for="langages">Choisissez un langage de programmation :</label>
+      <select id="langages" name="langages">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="c">C</option>
+        <!-- Ajoute d'autres langages si nécessaire -->
+      </select>
+    </div>
+  </body>
+</html>

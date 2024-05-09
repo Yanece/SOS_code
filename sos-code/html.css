@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Assure que la hauteur du corps couvre la totalité de la vue */
+    margin: 0; /* Supprime les marges par défaut */
+  }
+  
+  #reponses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
