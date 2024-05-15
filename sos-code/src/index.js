@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Menu_deroulant from './Menu';
+import titre from './Title';
 
+// ReactDOM.render(<Test />, document.getElementById("root"));
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Menu />
+    <Title />
   </React.StrictMode>
 );
 
