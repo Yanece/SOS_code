@@ -16,8 +16,8 @@ class Main extends Component {
             </p>
             <button>Vérifiez votre code</button>
           </div>
-          <div className="image">
-            <img src="sos code.jpeg" alt="Code Image" />
+          <div class="image">
+            <img src="/images/sos_code.jpeg" alt="Code Image" />
           </div>
         </main>
         
@@ -26,10 +26,10 @@ class Main extends Component {
         </header1>
         
         <main1>
-          <div className="search-container">
+          <div class="search-container">
             <textarea 
-              placeholder="Tapez ici pour rechercher" 
-              cols={50} 
+              placeholder="Insérer votre code" 
+              cols={100} 
               rows={10} 
             />
           </div>
