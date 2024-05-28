@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Hello App</title>
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenue sur SOS code</title>
+    <link rel="stylesheet" href="../src/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -44,115 +36,4 @@
 
 
 
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bienvenue sur SOS code</title>
-    <link rel="stylesheet" href="html.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <h1>Bienvenue sur SOS code</h1>
-    <header>
-      <div class="logo">
-        <img src="logo.png" alt="SOS code" />
-      </div>
-      <div class="login">
-        <button>Se connecter</button>
-      </div>
-    </header>
-    <main>
-      <div class="content">
-        <h1>Chat avec le vérificateur de code intelligent</h1>
-        <p>
-          Obtenez des commentaires instantanés sur votre code et améliorez vos
-          compétences en programmation
-        </p>
-        <button>Vérifiez votre code</button>
-      </div>
-      <div class="image">
-        <img src="sos code.jpeg" alt="Code Image" />
-      </div>
-    </main>
-    <header1>
-      <h1>Vérificateur de code</h1>
-    </header1>
-    <main1>
-      <div class="search-container">
-        <textarea placeholder = "Tapez ici pour rechercher" 
-        cols={50}
-        rows={10}/>
-        <!--<input type="text" placeholder="Tapez ici pour rechercher" />-->
-      </div>
-      <div class="code-container">
-        <div class="code-block">
-          <div class="code-details">
-            <span class="label">Extrait de code</span>
-            <pre>
-function ajouter(a, b) {
-  return a + b;
-}</pre
-            >
-          </div>
-          <div class="code-info">
-            <span class="label">Langue</span>
-            <span>Javascript</span>
-          </div>
-          <div class="code-result">
-            <span class="label">Vérifier le résultat</span>
-            <span>Passer</span>
-          </div>
-        </div>
-        <div class="code-block">
-          <div class="code-details">
-            <span class="label">Extrait de code</span>
-            <pre>
-public class Main {
-  public static void main(String[] args) {
-      System.out.println("Bonjour le monde !");
-  }
-}</pre
-            >
-          </div>
-          <div class="code-info">
-            <span class="label">Langue</span>
-            <span>Java</span>
-          </div>
-          <div class="code-result">
-            <span class="label">Vérifier le résultat</span>
-            <span>Passer</span>
-          </div>
-        </div>
-        <div class="code-block">
-          <div class="code-details">
-            <span class="label">Extrait de code</span>
-            <pre>
-$sql = "SELECT * FROM utilisateurs";
-$result = mysqli_query($conn, $sql);</pre
-            >
-          </div>
-          <div class="code-info">
-            <span class="label">Langue</span>
-            <span>PHP</span>
-          </div>
-          <div class="code-result">
-            <span class="label">Vérifier le résultat</span>
-            <span>Échouer</span>
-          </div>
-        </div>
-      </div>
-    </main1>
-  </body>
-</html>
+
