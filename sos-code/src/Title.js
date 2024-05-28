@@ -5,7 +5,7 @@ class Title extends Component {
   render() {
     return (
       <div>
-        <h1> Welcome to S.o.S Code </h1>
+        <h1>Bienvenue sur SOS code</h1>
       </div>
     );
   }
